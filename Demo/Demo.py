@@ -1,6 +1,7 @@
 import sys
 import os
-sys.path.insert(0, os.path.join(os.getcwd(), 'API'))
+path = os.getcwd()
+sys.path.insert(0, os.path.join(path[:len(path)-5], 'API'))
 from flask import Flask, redirect, request, Response
 
 from FHIR import FHIR_response
@@ -56,4 +57,4 @@ def age_graph():
 
 
 if __name__ == '__main__':
-    app.run(port='5002', debug=True)
+    app.run(host='127.0.0.1', port='5002', debug=True)
