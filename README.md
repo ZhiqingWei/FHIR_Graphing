@@ -24,7 +24,7 @@ This returns two kinds of graph:
 
   * Navigate to Demo folder using `cd Demo`
   
-  * Run the *Demo.py* in command line using `python Demo.py` or `python3 Demo.py`
+  * Run the *Demo.py* in command line using `python Demo.py`
   
   * Open a web browser and go to http://127.0.0.1:5002/ to start
   
