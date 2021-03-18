@@ -19,6 +19,8 @@ This returns two kinds of graph:
     **API folder**: Contain the **GraphingAPI.py** with a *requirements.txt*
   
     **Demo folder**: Contain a webAPI-like demo for the FHIR_Graph API with a *requirements.txt*
+  
+  * Make sure the **FHIR API** is running in the background, please check https://github.com/goshdrive/FHIRworks_2020 for guidence.
     
 ## Running the demonstrator
 
